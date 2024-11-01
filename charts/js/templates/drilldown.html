@@ -1,0 +1,65 @@
+<script src="js/d3/d3.v3.min.js"></script>
+<script type="text/javascript" src="js/d3/d3.layout.js"></script>
+<script type="text/javascript" src="js/domext.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/dataarray.js"></script>
+<script type="text/javascript" src="js/accounting.js"></script>
+<link rel="stylesheet" type="text/css" href="inc/tt.css"> 
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="css/screen.css"/>
+<link rel="stylesheet" href="css/fullscreen.css"/>
+<link href="css/style.css" rel="stylesheet">
+
+<div id = "flags"></div>
+
+<div id="formformat">
+<form>
+<select id="listFormat"  onchange="init()"></select>
+</form>
+</div>
+
+<div id="formdatabase">
+<form>
+<select id="listDatabase"  onchange="init()">
+</select>
+</form>
+</div>
+
+<div id="formorder">
+<form>
+<select id="listOrder"  onchange="init()">
+</select>
+</form>
+</div>
+
+<div id="formgrigiato">
+<form>
+<select id="listGrigiato"  onchange="init()">
+</select>
+</form>
+</div>
+    
+<h1><a href="javascript:document.location.href=document.location.href"><div id="titolo"></div></a></h1>
+<h3><div id="subtitolo"><strong></strong></div></h3>
+
+<h3><strong></strong></h3> 
+
+<p ><span id="grigiato"></span> <img id="immagine"  align="middle"/></p>
+<span id="percorso"></span>
+
+<div class="container">  
+	<div class="span-24 last">   
+		<div style="float: right; text-align: right;"> </div>     
+				   
+		<div id="chartContainer">		</div>
+		<div id="breadcrumbs">	</div>
+
+		<script type="text/javascript" src="js/drilldown.js"></script>
+
+		<div id="footer">
+			<span id="parole"></span>
+		</div>
+	</div> 
+</div>
+

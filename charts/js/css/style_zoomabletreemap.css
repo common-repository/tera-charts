@@ -1,0 +1,149 @@
+#camera {
+  left: -10px;
+  top: 1px;
+}
+
+#wpbi_orderForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_formatForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_dbForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_topSelectors{
+    display: table;
+}
+
+
+#percorso {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+
+  left: 477px;
+  top: 30px;
+}
+
+#parole {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+
+  left: 5px;
+  top: 60px;
+}
+
+
+.progress-meter .background {
+  fill: #ccc;
+}
+
+.progress-meter .foreground {
+  fill: #000;
+}
+
+.progress-meter text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+      .disclaimer {
+        color:  #999;
+        font-size:  70%;
+      }
+
+
+
+      .about {
+        color:  #555;
+        font-size:  80%;
+      }
+    
+      .navigate {
+        font-size: 100%;
+        margin-left:  3px;  
+      }
+
+      .budgetinfo {
+
+        top:  50px;
+        left:  800px;
+        background-color:  #bce6fa;
+        font-size: 80%; 
+        padding:  10px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid #DDDDDD;
+      }
+   
+      ul .nav .nav-pills {
+        margin-bottom: 0px;
+      }
+ 
+      #chart {
+        top: 40px;
+      }
+
+      text {
+        pointer-events: none;
+      }
+
+      .grandparent text {
+        font-weight: bold;
+
+        color:  #DDD;
+      }
+      
+      #resultstable {
+        font-size:  80%;
+        
+      }
+  
+      rect {
+        fill: none;
+        stroke: #bce6fa;
+      }
+
+      rect.parent,
+      .grandparent rect {
+        stroke-width: 5px;
+      }
+
+      rect.parent:hover {
+          outline: 1px solid #883;
+      }
+
+      .grandparent rect {
+        fill: aliceBlue;
+      }
+
+      .children rect.parent,
+      .grandparent rect {
+        cursor: pointer;
+      }
+
+      rect.parent {
+        pointer-events: all;
+      }
+
+      .children:hover rect.child,
+      .grandparent:hover rect {
+        fill: #EEE;
+        
+      }

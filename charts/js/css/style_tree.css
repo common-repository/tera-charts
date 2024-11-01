@@ -1,0 +1,75 @@
+
+#formformat {
+  position: absolute;
+  left: 975px;
+  top: 1px;
+}
+
+
+#formdatabase {
+  position: absolute;
+  left: 755px;
+  top: 1px;
+}
+
+#formorder {
+  position: absolute;
+  left: 530px;
+  top: 1px;
+}
+
+#percorso {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+  position: absolute;
+  left: 534px;
+  top: 30px;
+}
+
+#parole {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+  position: absolute;
+  left: 5px;
+  top: 50px;
+}
+
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+.progress-meter .background {
+  fill: #ccc;
+}
+
+.progress-meter .foreground {
+  fill: #000;
+}
+
+.progress-meter text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}

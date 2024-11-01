@@ -1,0 +1,148 @@
+
+text {
+  font: 10px sans-serif;
+}
+
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+pre {
+  font-size: 18px;
+}
+
+line {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.string, .regexp {
+  color: #f39;
+}
+
+.keyword {
+  color: #00c;
+}
+
+
+#wpbi_orderForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_formatForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_dbForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_topSelectors{
+    display: table;
+}
+
+#subtitolo {
+
+  left: 50px;
+  top: 32px;
+  color: black;
+  font-weight: normal;
+  text-decoration:none;
+}
+
+
+#percorso {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+
+  left: 5px;
+  top: 40px;
+}
+
+#parole {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+
+  left: 5px;
+  top: 65px;
+}
+
+
+.progress-meter .background {
+  fill: #ccc;
+}
+
+.progress-meter .foreground {
+  fill: #000;
+}
+
+.progress-meter text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.comment {
+  color: #777;
+  font-style: oblique;
+}
+
+.number {
+  color: #369;
+}
+
+.class, .special {
+  color: #1181B8;
+}
+
+.hint {
+
+  right: 0;
+  width: 1280px;
+  font-size: 12px;
+  color: #999;
+}
+
+
+.chart {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 11px;
+}
+
+#chartbody
+{
+    margin-top: -110px;
+}
+
+rect {
+  stroke: #eee;
+  fill: #aaa;
+  fill-opacity: .8;
+}
+
+rect.parent {
+  cursor: pointer;
+  fill: steelblue;
+}
+
+text {
+  pointer-events: none;
+}
+

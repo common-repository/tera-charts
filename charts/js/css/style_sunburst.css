@@ -1,0 +1,67 @@
+.path {
+  stroke: #fff;
+  fill-rule: evenodd;
+}
+
+.text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+
+.svg {
+
+  top:100px;
+  margin: 40px auto;
+
+}
+
+
+
+#camera {
+
+  left: 1px;
+  top: 1px;
+}
+
+#wpbi_orderForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_formatForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_dbForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_topSelectors{
+    display: table;
+}
+
+#percorso {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+  left: 5px;
+  top: 40px;
+}
+
+#parole {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+  left: 5px;
+  top: 65px;
+}

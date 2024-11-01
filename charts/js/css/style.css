@@ -1,0 +1,225 @@
+
+#formorder {
+
+  left: 421px;
+  top: 1px;
+}
+
+#formformat {
+  
+  left: 641px;
+  top: 1px;
+}
+
+#formdatabase {
+  
+  left: 860px;
+  top: 1px;
+}
+
+#formgrigiato {
+  
+  left: 1080px;
+  top: 1px;
+}
+
+#subtitolo {
+  
+  left: 190px;
+  top: 80px;
+}
+
+
+#percorso {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+  
+  left: 700px;
+  top: 40px;
+}
+
+#parole {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+  
+  left: 5px;
+  top: 850px;
+}
+
+
+
+#grigiato {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+  
+ left: 700px;
+ top: 63px;
+}
+
+
+#bottoneTwitter {
+ 
+  left: 0px;
+  top: 0px;
+}
+
+.container {
+	
+	position: relative;
+}
+
+#chart,
+#chartOp svg {
+	width: 948px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+#chart rect.bar {
+	
+}
+
+#chart rect.eu {
+	fill: url(#stripesPattern);
+}
+
+#chart text.label {
+	fill: #000000;	
+	cursor: pointer;	
+	font-weight: bold;	
+}
+
+#chart text.number {
+	fill: #777777;
+	cursor: pointer;	
+}
+
+#chart line {
+	stroke: #AAAAAA;
+	stroke-dasharray: 1 2;
+}
+
+#breadcrumbs {
+	position: absolute;
+	top: 100px;
+	left: 0;
+}
+
+#breadcrumbs a {
+	color: #AAAAAA;
+	display: block;
+	
+}
+
+#breadcrumbs a:hover {
+	color: #777777;
+	text-decoration: underline;
+}
+
+
+
+#chart g.insopra rect.bar {
+	fill: #35d723;
+}
+
+#chart g.insopra text.label {
+	fill: #35d723;
+}
+
+#chart g.insopra text.number {
+	fill: #35d723;
+}
+
+#chart g.insopra line {
+	stroke: #35d723;
+	stroke-dasharray: 2 2;
+}
+
+
+
+
+#chart g.in rect.bar {
+	fill: #2335d7;
+}
+
+#chart g.in text.label {
+	fill: #2335d7;
+}
+
+#chart g.in text.number {
+	fill: #2335d7;
+}
+
+#chart g.in line {
+	stroke: #2335d7;
+	stroke-dasharray: 2 2;
+}
+
+
+
+#chart g.insotto rect.bar {
+	fill: #d72335;
+}
+
+#chart g.insotto text.label {
+	fill: #d72335;
+}
+
+#chart g.insotto text.number {
+	fill: #d72335;
+}
+
+#chart g.insotto line {
+	stroke: #d72335;
+	stroke-dasharray: 2 2;
+}
+
+
+#chart g.out rect.bar {
+}
+
+#chart g.out text.label {
+}
+
+#chart g.out text.number {
+}
+
+#chart g.out line {
+}
+
+#footer {
+	margin-top: 5em;
+	color: #777777;
+}
+
+#footer a {
+	color: #000000;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+.progress-meter .background {
+  fill: #ccc;
+}
+
+.progress-meter .foreground {
+  fill: #000;
+}
+
+.progress-meter text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+

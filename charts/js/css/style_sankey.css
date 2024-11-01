@@ -1,0 +1,184 @@
+
+aside {
+  font-size: small;
+  right: 0;
+  position: absolute;
+  width: 180px;
+}
+
+.attribution {
+  font-size: small;
+  margin-bottom: 2em;
+}
+
+body > p, li > p {
+  line-height: 1.5em;
+}
+
+body > p {
+  width: 720px;
+}
+
+blockquote q {
+  display: block;
+  font-style: oblique;
+}
+
+pre, code, textarea {
+  font-family: "Menlo", monospace;
+}
+
+code {
+  line-height: 1em;
+}
+
+textarea {
+  font-size: 100%;
+}
+
+body > pre {
+  border-left: solid 2px #ccc;
+  padding-left: 18px;
+  margin: 2em 0 2em -20px;
+}
+
+.html .value,
+.javascript .string,
+.javascript .regexp {
+  color: #756bb1;
+}
+
+.html .tag,
+.css .tag,
+.javascript .keyword {
+  color: #3182bd;
+}
+
+.comment {
+  color: #636363;
+}
+
+.html .doctype,
+.javascript .number {
+  color: #31a354;
+}
+
+.html .attribute,
+.css .attribute,
+.javascript .class,
+.javascript .special {
+  color: #e6550d;
+}
+
+svg {
+  font: 10px sans-serif;
+  left: 1px;
+  top: 80px;
+}
+
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+sup, sub {
+  line-height: 0;
+}
+
+q:before {
+  content: "â€œ";
+}
+
+q:after {
+  content: "â€";
+}
+
+blockquote:before {
+  position: absolute;
+  left: 2em;
+}
+
+blockquote:after {
+  position: absolute;
+}
+
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+
+
+
+#wpbi_orderForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_formatForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_dbForm {
+    display: table-cell;
+    left: 5px;
+    top: 1px;
+}
+
+#wpbi_topSelectors{
+    display: table;
+}
+
+#subtitolo {
+
+  left: 50px;
+  top: 39px;
+  color: black;
+  font-weight: normal;
+  text-decoration:none;
+}
+
+
+#percorso {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+
+  left: 5px;
+  top: 50px;
+}
+
+#parole {
+  font-size:12px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration:none; 
+
+  left: 250px;
+  top: 50px;
+}
+

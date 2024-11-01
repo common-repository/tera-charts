@@ -1,0 +1,17 @@
+a {
+	color: red;
+}  
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	background: #FFFFFF;
+}          
+
+pre, code {
+	background: #EEEEEE;
+	padding: 10px;
+	width: 930px;
+}
